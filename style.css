@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-flex {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
